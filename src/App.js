@@ -20,7 +20,7 @@ const CONTENT = [
     ],
     correctAnswer: '441,776',
     correctAnswerResult: '441K',
-    correctAnswerDescription: 'pounds of latext paint each year!',
+    correctAnswerDescription: 'pounds of latex paint each year!',
     owenImage: 'paint-owen.jpg',
     compImage: 'paint-comp.jpg',
     answerText: (
@@ -43,7 +43,7 @@ const CONTENT = [
     ],
     correctAnswer: '441,776',
     correctAnswerResult: '441K',
-    correctAnswerDescription: 'pounds of latext paint each year!',
+    correctAnswerDescription: 'pounds of latex paint each year!',
     owenImage: 'paint-owen.jpg',
     compImage: 'paint-comp.jpg',
     answerText: (
