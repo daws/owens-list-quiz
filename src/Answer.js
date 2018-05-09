@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import classNames from 'classnames';
 
 import './Answer.css';
 
@@ -15,7 +16,7 @@ class Answer extends React.Component {
 
     return (
       <div>
-        <div className="answer--upper-left">
+        <div className={classNames('answer--upper-left', isCorrect ? 'answer--green' : 'answer--red')}>
           <div className="answer--heading">{isCorrect ? 'You got it!' : 'So close!'}</div>
           <div className="answer--correct-answer">
             Seattle throws out

@@ -4,9 +4,16 @@
   left: 0;
   width: 50%;
   height: 35%;
-  background-color: #99D272;
   color: white;
   padding: 50px 60px 0 60px;
+}
+
+.answer--green {
+  background-color: #99D272;
+}
+
+.answer--red {
+  background-color: #B81429;
 }
 
 .answer--upper-right {
