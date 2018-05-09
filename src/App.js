@@ -44,7 +44,7 @@ const CONTENT = [
     correctAnswer: '441,776',
     correctAnswerResult: '441K',
     correctAnswerDescription: 'pounds of latex paint each year!',
-    owenImage: 'paint-owen.jpg',
+    owenImage: 'batteries_owen.png',
     compImage: 'paint-comp.jpg',
     answerText: (
       <Fragment>
