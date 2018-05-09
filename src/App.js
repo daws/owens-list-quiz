@@ -160,7 +160,7 @@ const CONTENT = [
     correctAnswerResult: '84K',
     correctAnswerDescription: 'pounds of batteries each year!',
     owenImage: 'batteries_owen.png',
-    compImage: 'batteries-comp.jpg',
+    compImage: 'batteries-comp.png',
     answerText: (
       <Fragment>
         <h3>That’s more than 8 cars!</h3>
