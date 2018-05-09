@@ -23,8 +23,8 @@ class Answer extends React.Component {
             {correctAnswerDescription}
           </div>
         </div>
-        <div className="answer--upper-right" style={{ backgroundImage: `url(/images/${content.compImage})` }}></div>
-        <div className="answer--bottom-left" style={{ backgroundImage: `url(/images/${content.owenImage})` }}></div>
+        <div className="answer--upper-right" style={{ backgroundImage: `url(images/${content.compImage})` }}></div>
+        <div className="answer--bottom-left" style={{ backgroundImage: `url(images/${content.owenImage})` }}></div>
         <div className="answer--bottom-right">
           {content.answerText}
           <a href="#" onClick={this.handleClickNext} className="button answer--next-button">next</a>
