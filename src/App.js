@@ -55,6 +55,98 @@ const CONTENT = [
     )
   },
   {
+    title: 'Electronics',
+    image: 'electronics-large.png',
+    description: 'iPods, walkmen, flip phones. Many of us have old electronics like this laying around. What can be done with them when we’ve moved on to new things?',
+    question: 'How many pounds of electronics does Seattle throw away every year?',
+    answers: [
+      '1,381,133',
+      '2,036,971',
+      '978,357'
+    ],
+    correctAnswer: '1,381,133',
+    correctAnswerResult: '1.4 Million',
+    correctAnswerDescription: 'pounds of electronics each year!',
+    owenImage: 'electronics_owen.png',
+    compImage: 'electronics-comp.png',
+    answerText: (
+      <Fragment>
+        <h3>That’s  more than the weight of 8k people!</h3>
+        <p>Don’t throw your old electronics in the trash! You can recycle them instead!</p>
+        <p>Our local partners will find out which of your old electronics have some life in them. None left? They can take them apart and use the metals and glass in new things. Win/Win!</p>
+      </Fragment>
+    )
+  },
+  {
+    title: 'Light Bulbs',
+    image: 'lightbulbs-large.png',
+    description: 'Feeling dark because a light bulb or tube went out? Don’t make it worse by throwing them in the trash. It’s wasteful, dangerous and could be against the law!',
+    question: 'How many pounds of light bulbs does Seattle throw away every year?',
+    answers: [
+      '74,404',
+      '87,124',
+      '110,357'
+    ],
+    correctAnswer: '74,404',
+    correctAnswerResult: '74k',
+    correctAnswerDescription: 'pounds of light bulbs each year!',
+    owenImage: 'bulbs_owen.png',
+    compImage: 'bulbs-comp.png',
+    answerText: (
+      <Fragment>
+        <h3>That’s more than 8 elephants!</h3>
+        <p>Don’t throw your old light bulbs and tubes in the trash! That might even be illegal!</p>
+        <p>CFL bulbs and tubes are especially dangerous. Make sure to recycle them. That prevents them from causing harm and the glass and metal can also be recycled.</p>
+      </Fragment>
+    )
+  },
+  {
+    title: 'Plastic Film',
+    image: 'plastics-large.png',
+    description: 'Plastic bags are everywhere, including filling up our oceans. Many people mistakenly try to recycle these and that comes with another set of problems. Recycle it instead!',
+    question: 'How many pounds of plastic film does Seattle throw away every year?',
+    answers: [
+      '2,586,717',
+      '1,368,796',
+      '4,348,987'
+    ],
+    correctAnswer: '2,586,717',
+    correctAnswerResult: '2.6 Million',
+    correctAnswerDescription: 'pounds of plastic film each year!',
+    owenImage: 'bags_owen.png',
+    compImage: 'plastics-comp.png',
+    answerText: (
+      <Fragment>
+        <h3>That’s more than three 747 airplanes!</h3>
+        <p>Instead of throwing away your plastic film, recycle it!</p>
+        <p>Drop-off recycling for plastic film makes sure it doesn’t cause problems that can happen when it goes in your traditional bins. Instead, you can help turn it into decking material!</p>
+      </Fragment>
+    )
+  },
+  {
+    title: 'Clothing and Shoes',
+    image: 'clothes-large.png',
+    description: 'Clothes and shoes stop being useful for all kinds of reasons. Sometimes they go out of style. Other times they tear or get stained. No matter the cause, nearly all can avoid the trash!',
+    question: 'How many pounds of clothing and shoes does Seattle throw away every year?',
+    answers: [
+      '3,458,903',
+      '11,825,657',
+      '2,365,786'
+    ],
+    correctAnswer: '11,825,657',
+    correctAnswerResult: '11.8 Million',
+    correctAnswerDescription: 'pounds of clothing and shoes each year!',
+    owenImage: 'threads_owen.png',
+    compImage: 'clothes-comp.png',
+    answerText: (
+      <Fragment>
+        <h3>That’s more than the space needle!</h3>
+        <p>Instead of throwing away all of your old clothes and shoes, you can recycle them instead!</p>
+        <p>Our local partners first see if old clothes and shoes can still be worn. If that’s not possible, they will turn the materials into new things like insulation and other types of clothing!</p>
+      </Fragment>
+    )
+  },
+  {
     title: 'Batteries',
     image: 'batteries-large.jpg',
     description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
