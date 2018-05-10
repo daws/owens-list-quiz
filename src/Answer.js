@@ -26,11 +26,11 @@ class Answer extends React.Component {
           </div>
         </div>
         <div className="answer--upper-right" style={{ backgroundImage: `url(${imagePath(content.compImage)})` }}></div>
-        <div className="answer--bottom-left" style={{ backgroundImage: `url(${imagePath(content.owenImage)})` }}></div>
         <div className="answer--bottom-right">
           {content.answerText}
           <a href="#" onClick={this.handleClickNext} className="button answer--next-button">next</a>
         </div>
+        <div className="answer--bottom-left" style={{ backgroundImage: `url(${imagePath(content.owenImage)})` }}></div>
       </div>
     );
   }

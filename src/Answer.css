@@ -1,11 +1,6 @@
 .answer--upper-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 35%;
+  padding: 20px;
   color: white;
-  padding: 50px 60px 0 60px;
 }
 
 .answer--green {
@@ -17,47 +12,34 @@
 }
 
 .answer--upper-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 35%;
   background-size: cover;
+  height: 20vh;
 }
 
 .answer--bottom-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  height: 65%;
+  height: 100vh;
+  max-height: 400px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .answer--bottom-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 65%;
-  padding: 40px 60px 0 60px;
+  padding: 20px 20px 40px 20px;
 }
 
 .answer--heading {
   margin: 0;
   text-align: center;
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 3rem;
   margin-bottom: 1rem;
 }
 
 .answer--correct-answer {
-  line-height: 2rem;
-  font-size: 1.6rem;
 }
 
 .answer--result {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .answer--next-button {
@@ -67,8 +49,56 @@
   line-height: 30px;
   border-radius: 25px;
   text-align: center;
-  position: absolute;
-  bottom: 60px;
-  left: 60px;
-  right: 60px;
+}
+
+@media (min-width: 768px) {
+  .answer--upper-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 35%;
+    padding: 50px 60px 0 60px;
+  }
+  .answer--upper-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 35%;
+  }
+  .answer--heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .answer--correct-answer {
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+  .answer--result {
+    font-size: 2.5rem;
+  }
+  .answer--bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 65%;
+    padding: 40px 60px 0 60px;
+  }
+  .answer--next-button {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+  }
+  .answer--bottom-left {
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 65%;
+    max-height: none;
+  }
 }
