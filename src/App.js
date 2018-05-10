@@ -179,8 +179,10 @@ class App extends Component {
     answers: []
   };
 
+  scrollToTop = () => { window.scrollTo(0,0); }
+
   updateStage = (newStage) => {
-    this.setState({ stage: newStage });
+    this.setState({ stage: newStage }, this.scrollToTop);
   }
 
   handleAnswer = (isCorrect) => {
@@ -188,12 +190,12 @@ class App extends Component {
       stage: 'answer',
       isCorrect,
       answers: this.state.answers.concat([ isCorrect ])
-    });
+    }, this.scrollToTop);
   }
 
   handleNextPage = () => {
     const nextStage = this.state.pageIndex === CONTENT.length - 1 ? 'results' : 'quiz';
-    this.setState({ stage: nextStage, pageIndex: this.state.pageIndex + 1 });
+    this.setState({ stage: nextStage, pageIndex: this.state.pageIndex + 1 }, this.scrollToTop);
   }
 
   render() {
