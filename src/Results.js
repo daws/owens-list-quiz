@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { imagePath } from './util';
 import './Results.css';
 
 class Results extends React.Component {
@@ -13,7 +14,7 @@ class Results extends React.Component {
         <h1>You got {correct}/{answers.length} right!</h1>
         {questions.map((question, i) => (
           <div key={question} className="results--item">
-            <img src={`/owens-list-quiz/images/${answers[i] ? 'check' : 'x'}.svg`} />
+            <img src={`${imagePath(answers[i] ? 'check' : 'x')}.svg`} />
             <p>{question}</p>
           </div>
         ))}

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import classNames from 'classnames';
 
+import { imagePath } from './util';
 import './Answer.css';
 
 class Answer extends React.Component {
@@ -24,8 +25,8 @@ class Answer extends React.Component {
             {correctAnswerDescription}
           </div>
         </div>
-        <div className="answer--upper-right" style={{ backgroundImage: `url(/owens-list-quiz/images/${content.compImage})` }}></div>
-        <div className="answer--bottom-left" style={{ backgroundImage: `url(/owens-list-quiz/images/${content.owenImage})` }}></div>
+        <div className="answer--upper-right" style={{ backgroundImage: `url(${imagePath(content.compImage)})` }}></div>
+        <div className="answer--bottom-left" style={{ backgroundImage: `url(${imagePath(content.owenImage)})` }}></div>
         <div className="answer--bottom-right">
           {content.answerText}
           <a href="#" onClick={this.handleClickNext} className="button answer--next-button">next</a>

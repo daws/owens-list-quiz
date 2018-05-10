@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { imagePath } from './util';
 import './Quiz.css';
 
 class Quiz extends React.Component {
@@ -15,7 +16,7 @@ class Quiz extends React.Component {
     return (
       <div>
         <div className="left-col">
-          <div className="quiz--image" style={{ backgroundImage: `url(/owens-list-quiz/images/${image})` }}></div>
+          <div className="quiz--image" style={{ backgroundImage: `url(${imagePath(image)})` }}></div>
           <div className="quiz--title">{title}</div>
         </div>
         <div className="right-col">
