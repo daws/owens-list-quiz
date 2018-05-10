@@ -23,6 +23,7 @@ class Intro extends React.Component {
         <div className="center">
           <a className="button button-large block-center" href="#" onClick={this.handleStart}>Ready? Go!</a>
         </div>
+        <div className="intro--debug">{JSON.stringify(process.env)}</div>
       </div>
     );
   }
