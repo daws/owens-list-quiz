@@ -1,0 +1,22 @@
+.intro-material--wrapper {
+  float: left;
+  width: 25%;
+}
+
+.intro-material--image {
+  height: 20vh;
+  background-size: cover;
+}
+
+@media (min-width : 768px) {
+  .intro-material--image {
+    height: 260px !important;
+  }
+}
+
+.intro-material--text {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
