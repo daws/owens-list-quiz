@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: normal;
 }
 
@@ -35,17 +35,28 @@ h1 {
 }
 
 .left-col {
-  float: left;
-  width: 50%;
-  height: 100vh;
   position: relative;
 }
 
 .right-col {
-  margin-left: 50%;
-  height: 100vh;
-  padding: 60px;
+  padding: 40px 20px;
   font-size: 20px;
   position: relative;
+}
+
+@media (min-width : 768px) {
+	.left-col {
+  	float: left;
+  	width: 50%;
+  	height: 100vh;
+	}
+	.right-col {
+  	padding: 60px;
+  	margin-left: 50%;
+  	height: 100vh;
+	}
+	h1 {
+	  font-size: 3rem;
+	}
 }
 

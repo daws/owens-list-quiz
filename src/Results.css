@@ -1,6 +1,6 @@
 .results--wrapper {
   text-align: center;
-  padding: 100px 60px 0 60px;
+  padding: 100px 60px 60px 60px;
 }
 
 .results--sign-up-title {
@@ -12,8 +12,12 @@
 .results--item {
   display: inline-block;
   margin: 20px;
+  width: 80px;
+  text-align: center;
+  vertical-align: top;
 }
 
-.results--item img {
-  display: block;
+.results--item p {
+  line-height: 1.5rem;
+  height: 3rem;
 }
