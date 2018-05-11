@@ -22,7 +22,7 @@ const CONTENT = [
     correctAnswerResult: 'New Latex Paint',
     correctAnswerDescription: 'can be created from recycled latex paint!',
     owenImage: 'paint-owen.jpg',
-    compImage: 'paint-comp.jpg',
+    compImage: 'new_paint.png',
     answerText: (
       <Fragment>
         <h3>Recycling old latex paint saves resources!</h3>
