@@ -18,9 +18,9 @@ class Answer extends React.Component {
     return (
       <div>
         <div className={classNames('answer--upper-left', isCorrect ? 'answer--green' : 'answer--red')}>
-          <div className="answer--heading">{isCorrect ? 'You got it!' : 'So close!'}</div>
+          <div className="answer--heading">{isCorrect ? 'You got it!' : 'Not this time!'}</div>
           <div className="answer--correct-answer">
-            Seattle throws out
+            
             <span className="answer--result"> {correctAnswerResult} </span>
             {correctAnswerDescription}
           </div>
