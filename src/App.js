@@ -10,7 +10,7 @@ import Results from './Results';
 const CONTENT = [
   {
     title: 'Latex Paint',
-    image: 'paint-large.jpg',
+    image: 'latex_paint.png',
     description: 'Many people throw latex paint away. Some do this wet and that can get caught in our systems and damage trucks. Others dry it out. That involves chemicals and is very wasteful.',
     question: 'How many pounds of latex paint does Seattle throw away every year?',
     answers: [
