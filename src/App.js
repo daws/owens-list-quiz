@@ -11,21 +11,21 @@ const CONTENT = [
   {
     title: 'Latex Paint',
     image: 'latex_paint.png',
-    description: 'Many people throw latex paint away. Some do this wet and that can get caught in our systems and damage trucks. Others dry it out. That involves chemicals and is very wasteful.',
-    question: 'How many pounds of latex paint does Seattle throw away every year?',
+    description: 'Old latex paint tends to build up for different reasons. Sometimes we inherit it in a house we move into. Other times it goes out of date when we change colors. Now it can be recycled in Washington!',
+    question: 'What is old latex paint turned into when it’s recycled?',
     answers: [
-      '83,705',
-      '441,776',
-      '1,102,116'
+      'Crayons',
+      'Clothing Dye',
+      'New Latex Paint'
     ],
-    correctAnswer: '441,776',
-    correctAnswerResult: '441K',
-    correctAnswerDescription: 'pounds of latex paint each year!',
+    correctAnswer: 'New Latex Paint',
+    correctAnswerResult: 'New Latex Paint',
+    correctAnswerDescription: 'can be created from recycled latex paint!',
     owenImage: 'paint-owen.jpg',
     compImage: 'paint-comp.jpg',
     answerText: (
       <Fragment>
-        <h3>That's more than this house weighs!</h3>
+        <h3>Recycling old latex paint saves resources!</h3>
         <p>Instead of sending your unused latex paint to a landfill, you can recycle it locally!</p>
         <p>Our partner will accept all colors and quantities and will mix it in with other things to be able to create new colors that are as good as new. They will also recycle the cans!</p>
       </Fragment>
