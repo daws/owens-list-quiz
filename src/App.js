@@ -57,7 +57,7 @@ const CONTENT = [
   {
     title: 'Electronics',
     image: 'electronics-large.png',
-    description: 'iPods, walkmen, flip phones. Many of ushave old electronics like this laying around. Many of them get thrown in the garbage, but we know better!',
+    description: 'iPods, walkmen, flip phones. Many of us have old electronics like this laying around. Many of them get thrown in the garbage, but we know better!',
     question: 'How many pounds of electronics does Seattle throw away every year?',
     answers: [
       '0.4 Million',
@@ -68,10 +68,10 @@ const CONTENT = [
     correctAnswerResult: '1.4 Million',
     correctAnswerDescription: 'pounds of electronics each year get thrown in the garbage!',
     owenImage: 'electronics_owen.png',
-    compImage: 'electronics-comp.png',
+    compImage: 'bulbs-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s  more than the weight of 8k people!</h3>
+        <h3>That’s  more than the weight of 145 elephants!</h3>
         <p>Don’t throw your old electronics in the trash! You can recycle them instead!</p>
         <p>Our local partners will find out which of your old electronics have some life in them. None left? They can take them apart and use the metals and glass in new things. Win/Win!</p>
       </Fragment>
