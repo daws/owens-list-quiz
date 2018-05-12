@@ -152,13 +152,13 @@ const CONTENT = [
     description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
     question: 'How many pounds of batteries does Seattle throw away every year?',
     answers: [
-      '83,705',
-      '46,879',
-      '76,324'
+      '64,000',
+      '84,000',
+      '104,000'
     ],
-    correctAnswer: '83,705',
+    correctAnswer: '84,000',
     correctAnswerResult: '84K',
-    correctAnswerDescription: 'pounds of batteries each year!',
+    correctAnswerDescription: 'pounds of batteries are thrown in the garbage each year in Seattle!',
     owenImage: 'batteries_owen.png',
     compImage: 'batteries-comp.png',
     answerText: (
