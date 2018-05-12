@@ -9,29 +9,6 @@ import Results from './Results';
 
 const CONTENT = [
   {
-    title: 'Latex Paint',
-    image: 'latex_paint.png',
-    description: 'Old latex paint tends to build up for different reasons. Sometimes we inherit it in a house we move into. Other times it goes out of date when we change colors. Now it can be recycled in Washington!',
-    question: 'What is old latex paint turned into when it’s recycled?',
-    answers: [
-      'Crayons',
-      'Clothing Dye',
-      'New Latex Paint'
-    ],
-    correctAnswer: 'New Latex Paint',
-    correctAnswerResult: 'New Latex Paint',
-    correctAnswerDescription: 'can be created from recycled latex paint!',
-    owenImage: 'paint-owen.jpg',
-    compImage: 'new_paint.png',
-    answerText: (
-      <Fragment>
-        <h3>Recycling old latex paint saves resources!</h3>
-        <p>Instead of sending your unused latex paint to a landfill, you can recycle it locally!</p>
-        <p>Our partner will accept all colors and quantities and will mix it in with other things to be able to create new colors that are as good as new. They will also recycle the cans!</p>
-      </Fragment>
-    )
-  },
-  {
     title: 'Styrofoam',
     image: 'styrofoam-large.png',
     description: 'We get things shipped to us in Styrofoam because it’s so light and durable. It takes up lots of space in our trash and can be recycled instead!',
@@ -55,25 +32,48 @@ const CONTENT = [
     )
   },
   {
-    title: 'Electronics',
-    image: 'electronics-large.png',
-    description: 'iPods, walkmen, flip phones. Many of us have old electronics like this laying around. Many of them get thrown in the garbage, but we know better!',
-    question: 'How many pounds of electronics does Seattle throw away every year?',
+    title: 'Batteries',
+    image: 'batteries-large.jpg',
+    description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
+    question: 'How many pounds of batteries does Seattle throw away every year?',
     answers: [
-      '0.4 Million',
-      '1.4 Million',
-      '2.4 Million'
+      '64,000',
+      '84,000',
+      '104,000'
     ],
-    correctAnswer: '1.4 Million',
-    correctAnswerResult: '1.4 Million',
-    correctAnswerDescription: 'pounds of electronics each year get thrown in the garbage!',
-    owenImage: 'electronics_owen.png',
-    compImage: 'bulbs-comp.png',
+    correctAnswer: '84,000',
+    correctAnswerResult: '84K',
+    correctAnswerDescription: 'pounds of batteries are thrown in the garbage each year in Seattle!',
+    owenImage: 'batteries_owen.png',
+    compImage: 'batteries-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s  more than the weight of 145 elephants!</h3>
-        <p>Don’t throw your old electronics in the trash! You can recycle them instead!</p>
-        <p>Our local partners will find out which of your old electronics have some life in them. None left? They can take them apart and use the metals and glass in new things. Win/Win!</p>
+        <h3>That’s more than 8 cars!</h3>
+        <p>Instead of throwing batteries into the garbage, you can recycle them and keep them safe!</p>
+        <p>Our partners make sure the chemicals from batteries don’t cause any damage to our environment. Even better, they can also recover metals they are made out of!</p>
+      </Fragment>
+    )
+  },
+  {
+    title: 'Latex Paint',
+    image: 'latex_paint.png',
+    description: 'Old latex paint tends to build up for different reasons. Sometimes we inherit it in a house we move into. Other times it goes out of date when we change colors. Now it can be recycled in Washington!',
+    question: 'What is old latex paint turned into when it’s recycled?',
+    answers: [
+      'Crayons',
+      'Clothing Dye',
+      'New Latex Paint'
+    ],
+    correctAnswer: 'New Latex Paint',
+    correctAnswerResult: 'New Latex Paint',
+    correctAnswerDescription: 'can be created from recycled latex paint!',
+    owenImage: 'paint-owen.jpg',
+    compImage: 'new_paint.png',
+    answerText: (
+      <Fragment>
+        <h3>Recycling old latex paint saves resources!</h3>
+        <p>Instead of sending your unused latex paint to a landfill, you can recycle it locally!</p>
+        <p>Our partner will accept all colors and quantities and will mix it in with other things to be able to create new colors that are as good as new. They will also recycle the cans!</p>
       </Fragment>
     )
   },
@@ -97,6 +97,29 @@ const CONTENT = [
         <h3>But other types of light bulbs can be recycled too!</h3>
         <p>CFLs are dangerous because they contain mercury. Make sure to recycle these!</p>
         <p>But our partner can recycle other kinds too! This process extracts the glass and metal and recycles it into new things.</p>
+      </Fragment>
+    )
+  },
+  {
+    title: 'Electronics',
+    image: 'electronics-large.png',
+    description: 'iPods, walkmen, flip phones. Many of us have old electronics like this laying around. Many of them get thrown in the garbage, but we know better!',
+    question: 'How many pounds of electronics does Seattle throw away every year?',
+    answers: [
+      '0.4 Million',
+      '1.4 Million',
+      '2.4 Million'
+    ],
+    correctAnswer: '1.4 Million',
+    correctAnswerResult: '1.4 Million',
+    correctAnswerDescription: 'pounds of electronics each year get thrown in the garbage!',
+    owenImage: 'electronics_owen.png',
+    compImage: 'bulbs-comp.png',
+    answerText: (
+      <Fragment>
+        <h3>That’s  more than the weight of 145 elephants!</h3>
+        <p>Don’t throw your old electronics in the trash! You can recycle them instead!</p>
+        <p>Our local partners will find out which of your old electronics have some life in them. None left? They can take them apart and use the metals and glass in new things. Win/Win!</p>
       </Fragment>
     )
   },
@@ -143,29 +166,6 @@ const CONTENT = [
         <h3>11 million pounds is more than the space needle weighs!</h3>
         <p>Instead of throwing away all of your old clothes and shoes, you can recycle them instead!</p>
         <p>Our local partners first see if old clothes and shoes can still be worn. If that’s not possible, they will turn the materials into new things like insulation and other types of clothing!</p>
-      </Fragment>
-    )
-  },
-  {
-    title: 'Batteries',
-    image: 'batteries-large.jpg',
-    description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
-    question: 'How many pounds of batteries does Seattle throw away every year?',
-    answers: [
-      '64,000',
-      '84,000',
-      '104,000'
-    ],
-    correctAnswer: '84,000',
-    correctAnswerResult: '84K',
-    correctAnswerDescription: 'pounds of batteries are thrown in the garbage each year in Seattle!',
-    owenImage: 'batteries_owen.png',
-    compImage: 'batteries-comp.png',
-    answerText: (
-      <Fragment>
-        <h3>That’s more than 8 cars!</h3>
-        <p>Instead of throwing batteries into the garbage, you can recycle them and keep them safe!</p>
-        <p>Our partners make sure the chemicals from batteries don’t cause any damage to our environment. Even better, they can also recover metals they are made out of!</p>
       </Fragment>
     )
   }
