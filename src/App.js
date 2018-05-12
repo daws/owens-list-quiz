@@ -91,7 +91,7 @@ const CONTENT = [
     correctAnswerResult: 'Compact Fluorescent',
     correctAnswerDescription: 'light bulbs must be recycled!',
     owenImage: 'bulbs_owen.png',
-    compImage: 'bulbs-comp.png',
+    compImage: 'cfl_bulbs.png',
     answerText: (
       <Fragment>
         <h3>But other types of light bulbs can be recycled too!</h3>
