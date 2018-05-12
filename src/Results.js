@@ -19,7 +19,7 @@ class Results extends React.Component {
           </div>
         ))}
         <h1 className="results--sign-up-title">Join Owen's List and make a difference</h1>
-        <a className="button button-large block-center" href="https://owenslist.us17.list-manage.com/subscribe?u=20068737de57bb81d3a7aa4b4&id=e4e5f0287e">Sign Up!</a>
+        <a className="button button-large block-center" href="https://owenslist.us17.list-manage.com/subscribe?u=20068737de57bb81d3a7aa4b4&id=e4e5f0287e&USOURCE=events&UMEDIUM=street_team&UCAMPAIGN=quiz&UCONTENT=answer">Sign Up!</a>
       </div>
     );
   }
