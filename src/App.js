@@ -135,7 +135,7 @@ const CONTENT = [
     ],
     correctAnswer: 'It gets caught in the machines',
     correctAnswerResult: 'It gets caught in the machines',
-    correctAnswerDescription: 'is why you shouldn't put plastic film in your recycling bin!',
+    correctAnswerDescription: "is why you shouldn't put plastic film in your recycling bin!",
     owenImage: 'bags_owen.png',
     compImage: 'plastic_film.png',
     answerText: (
