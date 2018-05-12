@@ -45,7 +45,7 @@ const CONTENT = [
     correctAnswerResult: '1 Million Years',
     correctAnswerDescription: 'is how long it takes Styrofoam to breakdown in a landfill!',
     owenImage: 'styro_owen.png',
-    compImage: 'styrofoam-comp.png',
+    compImage: 'caveman_days.png',
     answerText: (
       <Fragment>
         <h3>Styrofoam from cavemen could still be around!</h3>
