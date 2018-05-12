@@ -124,23 +124,23 @@ const CONTENT = [
     )
   },
   {
-    title: 'Clothing and Shoes',
-    image: 'clothes-large.png',
-    description: 'Clothes and shoes stop being useful for all kinds of reasons. Sometimes they go out of style. Other times they tear or get stained. No matter the cause, nearly all can avoid the trash!',
-    question: 'How many pounds of clothing and shoes does Seattle throw away every year?',
+    title: 'Largest Category',
+    image: 'big_reveal.png',
+    description: 'One category gets thrown away so often that if you added it all up, it would surpass 11 million pounds! Nearly all of this can be recycled instead of sent to landfills!',
+    question: 'What is the largest possible category of alternative recycling in Seattle?',
     answers: [
-      '3,458,903',
-      '11,825,657',
-      '2,365,786'
+      'Clothing and Shoes',
+      'Tires',
+      'Carpet and Rugs'
     ],
-    correctAnswer: '11,825,657',
-    correctAnswerResult: '11.8 Million',
-    correctAnswerDescription: 'pounds of clothing and shoes each year!',
+    correctAnswer: 'Clothing and Shoes',
+    correctAnswerResult: 'Clothing and Shoes',
+    correctAnswerDescription: 'is the largest possible alternate recycling category!',
     owenImage: 'threads_owen.png',
     compImage: 'clothes-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than the space needle!</h3>
+        <h3>11 million pounds is more than the space needle weighs!</h3>
         <p>Instead of throwing away all of your old clothes and shoes, you can recycle them instead!</p>
         <p>Our local partners first see if old clothes and shoes can still be worn. If that’s not possible, they will turn the materials into new things like insulation and other types of clothing!</p>
       </Fragment>
