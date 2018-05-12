@@ -81,22 +81,22 @@ const CONTENT = [
     title: 'Light Bulbs',
     image: 'lightbulbs-large.png',
     description: 'Feeling dark because a light bulb or tube went out? Don’t make it worse by throwing them in the trash. It’s wasteful, dangerous and could be against the law!',
-    question: 'How many pounds of light bulbs does Seattle throw away every year?',
+    question: 'What type of light bulb legally must be recycled?',
     answers: [
-      '74,404',
-      '87,124',
-      '110,357'
+      'Compact Fluorescent',
+      'Incandescent',
+      'Halogen'
     ],
-    correctAnswer: '74,404',
-    correctAnswerResult: '74k',
-    correctAnswerDescription: 'pounds of light bulbs each year!',
+    correctAnswer: 'Compact Fluorescent',
+    correctAnswerResult: 'Compact Fluorescent',
+    correctAnswerDescription: 'light bulbs must be recycled!',
     owenImage: 'bulbs_owen.png',
     compImage: 'bulbs-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than 8 elephants!</h3>
-        <p>Don’t throw your old light bulbs and tubes in the trash! That might even be illegal!</p>
-        <p>CFL bulbs and tubes are especially dangerous. Make sure to recycle them. That prevents them from causing harm and the glass and metal can also be recycled.</p>
+        <h3>But other types of light bulbs can be recycled too!</h3>
+        <p>CFLs are dangerous because they contain mercury. Make sure to recycle these!</p>
+        <p>But our partner can recycle other kinds too! This process extracts the glass and metal and recycles it into new things.</p>
       </Fragment>
     )
   },
