@@ -104,21 +104,21 @@ const CONTENT = [
     title: 'Plastic Film',
     image: 'plastics-large.png',
     description: 'Plastic bags are everywhere, including filling up our oceans. Many people mistakenly try to recycle these and that comes with another set of problems. Recycle it instead!',
-    question: 'How many pounds of plastic film does Seattle throw away every year?',
+    question: 'Why should you not recycle loose thin plastic?',
     answers: [
-      '2,586,717',
-      '1,368,796',
-      '4,348,987'
+      'It melts',
+      'It gets caught in the machines',
+      'It’s toxic'
     ],
-    correctAnswer: '2,586,717',
-    correctAnswerResult: '2.6 Million',
-    correctAnswerDescription: 'pounds of plastic film each year!',
+    correctAnswer: 'It gets caught in the machines',
+    correctAnswerResult: 'It gets caught in the machines',
+    correctAnswerDescription: 'is why you shouldn't put plastic film in your recycling bin!',
     owenImage: 'bags_owen.png',
     compImage: 'plastics-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than three 747 airplanes!</h3>
-        <p>Instead of throwing away your plastic film, recycle it!</p>
+        <h3>Recycle it through Drop-off Recycling Instead!</h3>
+        <p>2.6 million pounds could have been recycled!</p>
         <p>Drop-off recycling for plastic film makes sure it doesn’t cause problems that can happen when it goes in your traditional bins. Instead, you can help turn it into decking material!</p>
       </Fragment>
     )
