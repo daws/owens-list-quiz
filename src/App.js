@@ -34,21 +34,21 @@ const CONTENT = [
   {
     title: 'Styrofoam',
     image: 'styrofoam-large.png',
-    description: 'We get things shipped to us in Styrofoam because it’s so light and durable. Not only does it take up lots of space in our trash, but it also takes over 1 million years to break down!',
-    question: 'How many pounds of Styrofoam does Seattle throw away every year?',
+    description: 'We get things shipped to us in Styrofoam because it’s so light and durable. It takes up lots of space in our trash and can be recycled instead!',
+    question: 'How many years does it take Styrofoam to break down in a landfill?',
     answers: [
-      '978,371',
-      '1,102,116',
-      '1,358,860'
+      '10 Years',
+      '500 Years',
+      '1 Million Years'
     ],
-    correctAnswer: '1,102,116',
-    correctAnswerResult: '1.1 Million',
-    correctAnswerDescription: 'pounds of Styrofoam each year!',
+    correctAnswer: '1 Million Years',
+    correctAnswerResult: '1 Million Years',
+    correctAnswerDescription: 'is how long it takes Styrofoam to breakdown in a landfill!',
     owenImage: 'styro_owen.png',
     compImage: 'styrofoam-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than a locomotive!</h3>
+        <h3>Styrofoam from cavemen could still be around!</h3>
         <p>Instead of filling up your trash can with Styrofoam, you can recycle it locally!</p>
         <p>Our partner accepts two different kinds of styrofoam as well as peanuts! They heat it up and form it into blocks that are later turned into things like picture frames and molding.</p>
       </Fragment>
