@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Intro from './Intro';
+import GetStarted from './GetStarted';
 import Quiz from './Quiz';
 import Answer from './Answer';
 import Results from './Results';
@@ -204,6 +205,9 @@ class App extends Component {
     switch (this.state.stage) {
       case 'intro':
         content = (<Intro onUpdateStage={this.updateStage} />);
+        break;
+      case 'start':
+        content = (<GetStarted onUpdateStage={this.updateStage} />);
         break;
       case 'quiz':
         content = (<Quiz content={CONTENT[this.state.pageIndex]} onAnswer={this.handleAnswer} />);

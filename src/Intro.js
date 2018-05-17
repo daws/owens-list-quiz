@@ -7,7 +7,7 @@ class Intro extends React.Component {
 
   handleStart = (e) => {
     e.preventDefault();
-    this.props.onUpdateStage('quiz');
+    this.props.onUpdateStage('start');
   }
 
   render() {
