@@ -38,9 +38,9 @@ const CONTENT = [
     description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
     question: 'How many pounds of batteries does Seattle throw away every year?',
     answers: [
-      '64,000',
+      '4,000',
       '84,000',
-      '104,000'
+      '504,000'
     ],
     correctAnswer: '84,000',
     correctAnswerResult: '84K',
@@ -75,52 +75,6 @@ const CONTENT = [
         <h3>Recycling old latex paint saves resources!</h3>
         <p>Instead of sending your unused latex paint to a landfill, you can recycle it locally!</p>
         <p>Our partner will accept all colors and quantities and will mix it in with other things to be able to create new colors that are as good as new. They will also recycle the cans!</p>
-      </Fragment>
-    )
-  },
-  {
-    title: 'Light Bulbs',
-    image: 'lightbulbs-large.png',
-    description: 'Feeling dark because a light bulb or tube went out? Don’t make it worse by throwing them in the trash. It’s wasteful, dangerous and could be against the law!',
-    question: 'What type of light bulb legally must be recycled?',
-    answers: [
-      'Compact Fluorescent',
-      'Incandescent',
-      'Halogen'
-    ],
-    correctAnswer: 'Compact Fluorescent',
-    correctAnswerResult: 'Compact Fluorescent',
-    correctAnswerDescription: 'light bulbs must be recycled!',
-    owenImage: 'bulbs_owen.png',
-    compImage: 'cfl_bulbs.png',
-    answerText: (
-      <Fragment>
-        <h3>But other types of light bulbs can be recycled too!</h3>
-        <p>CFLs are dangerous because they contain mercury. Make sure to recycle these!</p>
-        <p>But our partner can recycle other kinds too! This process extracts the glass and metal and recycles it into new things.</p>
-      </Fragment>
-    )
-  },
-  {
-    title: 'Electronics',
-    image: 'electronics-large.png',
-    description: 'iPods, walkmen, flip phones. Many of us have old electronics like this laying around. Many of them get thrown in the garbage, but we know better!',
-    question: 'How many pounds of electronics does Seattle throw away every year?',
-    answers: [
-      '0.4 Million',
-      '1.4 Million',
-      '2.4 Million'
-    ],
-    correctAnswer: '1.4 Million',
-    correctAnswerResult: '1.4 Million',
-    correctAnswerDescription: 'pounds of electronics each year get thrown in the garbage!',
-    owenImage: 'electronics_owen.png',
-    compImage: 'bulbs-comp.png',
-    answerText: (
-      <Fragment>
-        <h3>That’s  more than the weight of 145 elephants!</h3>
-        <p>Don’t throw your old electronics in the trash! You can recycle them instead!</p>
-        <p>Our local partners will find out which of your old electronics have some life in them. None left? They can take them apart and use the metals and glass in new things. Win/Win!</p>
       </Fragment>
     )
   },
