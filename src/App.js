@@ -36,20 +36,20 @@ const CONTENT = [
     title: 'Batteries',
     image: 'batteries-large.jpg',
     description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
-    question: 'How many pounds of batteries do people in the US throw away each year?',
+    question: 'How many batteries do people in the US throw away each year?',
     answers: [
-      '300,000 pounds',
-      '1 million pounds',
-      '3 billion pounds'
+      '300,000 batteries',
+      '1 million batteries',
+      '3 billion batteries'
     ],
-    correctAnswer: '3 billion pounds',
-    correctAnswerResult: '3 billion pounds',
-    correctAnswerDescription: 'of batteries are thrown in the garbage each year in the United States!',
+    correctAnswer: '3 billion batteries',
+    correctAnswerResult: '3 billion batteries',
+    correctAnswerDescription: 'are thrown in the garbage each year in the United States!',
     owenImage: 'batteries_owen.png',
     compImage: 'batteries-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than 90,000 cars!</h3>
+        <h3>That's the weight of more than 90,000 cars!</h3>
         <p>Instead of throwing batteries into the garbage, you can recycle them and keep them safe!</p>
         <p>Our partners make sure the chemicals from batteries don’t cause any damage to our environment. Even better, they can also recover metals they are made out of!</p>
       </Fragment>
