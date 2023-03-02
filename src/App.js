@@ -40,16 +40,16 @@ const CONTENT = [
     answers: [
       '300,000 pounds',
       '1 million pounds',
-      '3 million pounds'
+      '3 billion pounds'
     ],
-    correctAnswer: '3 million pounds',
-    correctAnswerResult: '3 million pounds',
+    correctAnswer: '3 billion pounds',
+    correctAnswerResult: '3 billion pounds',
     correctAnswerDescription: 'of batteries are thrown in the garbage each year in the United States!',
     owenImage: 'batteries_owen.png',
     compImage: 'batteries-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than 750 cars!</h3>
+        <h3>That’s more than 90,000 cars!</h3>
         <p>Instead of throwing batteries into the garbage, you can recycle them and keep them safe!</p>
         <p>Our partners make sure the chemicals from batteries don’t cause any damage to our environment. Even better, they can also recover metals they are made out of!</p>
       </Fragment>
