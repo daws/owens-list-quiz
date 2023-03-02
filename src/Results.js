@@ -18,7 +18,7 @@ class Results extends React.Component {
             <p>{question}</p>
           </div>
         ))}
-        <h1 className="results--sign-up-title">Join Owen's List and make a difference</h1>
+        <h1 className="results--sign-up-title">Join Ridwell and make a difference</h1>
         <a className="button button-large block-center" href="https://www.ridwell.com/waitlist?rtid=T91bmx4">Sign Up!</a>
       </div>
     );

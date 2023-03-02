@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import { imagePath } from './util';
 import './Quiz.css';
@@ -12,11 +13,11 @@ class Quiz extends React.Component {
   }
 
   render() {
-    const { image, title, description, question, answers } = this.props.content;
+    const { image, additionalImageClasses, title, description, question, answers } = this.props.content;
     return (
       <div>
         <div className="left-col">
-          <div className="quiz--image" style={{ backgroundImage: `url(${imagePath(image)})` }}></div>
+          <div className={classNames('quiz--image', ...(additionalImageClasses || []))} style={{ backgroundImage: `url(${imagePath(image)})` }}></div>
           <div className="quiz--title">{title}</div>
         </div>
         <div className="right-col">

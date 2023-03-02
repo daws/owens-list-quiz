@@ -19,7 +19,15 @@
 }
 
 .get-started--logo {
-  background-size: contain;
+  background-size: 75% auto;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.get-started--upper-left {
+  background-color: #f56600;
+}
+
+.get-started--bottom-left {
+  background-position: 60% 0%;
 }

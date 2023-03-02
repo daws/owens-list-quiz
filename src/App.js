@@ -28,7 +28,7 @@ const CONTENT = [
       <Fragment>
         <h3>Styrofoam from cavemen could still be around!</h3>
         <p>Instead of filling up your trash can with Styrofoam, you can recycle it locally!</p>
-        <p>Our partner accepts two different kinds of styrofoam as well as peanuts! They heat it up and form it into blocks that are later turned into things like picture frames and molding.</p>
+        <p>Our local partners accept several different kinds of Styrofoam! They heat it up and form it into blocks (called densifying) that are later turned into things like picture frames and crown molding.</p>
       </Fragment>
     )
   },
@@ -36,20 +36,20 @@ const CONTENT = [
     title: 'Batteries',
     image: 'batteries-large.jpg',
     description: 'Batteries are made of a combination of metals and chemicals. When they run out, you can do better than throwing them in the trash where they can cause damage to our planet.',
-    question: 'How many pounds of batteries does Seattle throw away every year?',
+    question: 'How many pounds of batteries do people in the US throw away each year?',
     answers: [
-      '4,000',
-      '84,000',
-      '504,000'
+      '300,000 pounds',
+      '1 million pounds',
+      '3 million pounds'
     ],
-    correctAnswer: '84,000',
-    correctAnswerResult: '84K',
-    correctAnswerDescription: 'pounds of batteries are thrown in the garbage each year in Seattle!',
+    correctAnswer: '3 million pounds',
+    correctAnswerResult: '3 million pounds',
+    correctAnswerDescription: 'of batteries are thrown in the garbage each year in the United States!',
     owenImage: 'batteries_owen.png',
     compImage: 'batteries-comp.png',
     answerText: (
       <Fragment>
-        <h3>That’s more than 8 cars!</h3>
+        <h3>That’s more than 750 cars!</h3>
         <p>Instead of throwing batteries into the garbage, you can recycle them and keep them safe!</p>
         <p>Our partners make sure the chemicals from batteries don’t cause any damage to our environment. Even better, they can also recover metals they are made out of!</p>
       </Fragment>
@@ -58,7 +58,7 @@ const CONTENT = [
   {
     title: 'Latex Paint',
     image: 'latex_paint.png',
-    description: 'Old latex paint tends to build up for different reasons. Sometimes we inherit it in a house we move into. Other times it goes out of date when we change colors. Now it can be recycled in Washington!',
+    description: 'Old latex paint tends to build up for different reasons. Sometimes we inherit it in a house we move into. Other times it goes out of date when we change colors.',
     question: 'What is old latex paint turned into when it’s recycled?',
     answers: [
       'Crayons',
@@ -73,16 +73,17 @@ const CONTENT = [
     answerText: (
       <Fragment>
         <h3>Recycling old latex paint saves resources!</h3>
-        <p>Instead of sending your unused latex paint to a landfill, you can recycle it locally!</p>
-        <p>Our partner will accept all colors and quantities and will mix it in with other things to be able to create new colors that are as good as new. They will also recycle the cans!</p>
+        <p>Instead of sending your unused latex paint to a landfill, you can often recycle it locally!</p>
+        <p>We work with local partners to recycle latex paint of many colors and quantities to be able to create new paint that is good as new. The cans also can be recycled!</p>
       </Fragment>
     )
   },
   {
     title: 'Plastic Film',
-    image: 'plastics-large.png',
-    description: 'Plastic bags are everywhere, including filling up our oceans. Many people mistakenly try to recycle these and that comes with another set of problems. Recycle it instead!',
-    question: 'Why should you not recycle loose thin plastic?',
+    image: 'plastic_film_hero.jpg',
+    additionalImageClasses: ['quiz--plastic-film-image'],
+    description: 'Plastic film (like bags, air pillows, bubble wrap, and plastic wrap) is everywhere, including filling up our oceans.  Many people mistakenly put plastic film in their curbside bins. Recycle it with Ridwell instead!',
+    question: 'Why should you not put thin plastic in curbside recycling?',
     answers: [
       'It melts',
       'It gets caught in the machines',
@@ -95,17 +96,17 @@ const CONTENT = [
     compImage: 'plastic_film.png',
     answerText: (
       <Fragment>
-        <h3>Recycle it through Drop-off Recycling Instead!</h3>
-        <p>2.6 million pounds could have been recycled!</p>
-        <p>Drop-off recycling for plastic film makes sure it doesn’t cause problems that can happen when it goes in your traditional bins. Instead, you can help turn it into decking material!</p>
+        <h3>Recycle it with Ridwell instead!</h3>
+        <p>Instead of causing havoc in recycling machines and ending up in the landfill, you can recycle plastic film with Ridwell where it gets turned into outdoor furniture and decking material by our partner, Trex!</p>
+        <p>2.3 million pounds of plastic film has been saved from the landfills by Ridwell members in just 4 years!</p>
       </Fragment>
     )
   },
   {
     title: 'Largest Category',
     image: 'big_reveal.png',
-    description: 'One category gets thrown away so often that if you added it all up, it would surpass 11 million pounds! Nearly all of this can be recycled instead of sent to landfills!',
-    question: 'What is the largest possible category of alternative recycling in Seattle?',
+    description: 'One category gets thrown away so often that if you added it all up, it would surpass 22 billion pounds every year, just in the US! Most of this can be reused or recycled instead of sent to landfills!',
+    question: 'What is the largest possible category of alternative recycling?',
     answers: [
       'Clothing and Shoes',
       'Tires',
@@ -115,10 +116,10 @@ const CONTENT = [
     correctAnswerResult: 'Clothing and Shoes',
     correctAnswerDescription: 'is the largest possible alternate recycling category!',
     owenImage: 'threads_owen.png',
-    compImage: 'clothes-comp.png',
+    compImage: 'statue_of_liberty.png',
     answerText: (
       <Fragment>
-        <h3>11 million pounds is more than the space needle weighs!</h3>
+        <h3>22 billion pounds is about the weight of 400 Statues of Liberty!</h3>
         <p>Instead of throwing away all of your old clothes and shoes, you can recycle them instead!</p>
         <p>Our local partners first see if old clothes and shoes can still be worn. If that’s not possible, they will turn the materials into new things like insulation and other types of clothing!</p>
       </Fragment>
